@@ -9,7 +9,7 @@ Currently, `solo` supports DigitalOcean only, as it depends on the snapshot feat
 Design
 ======
 
-TL;DR: [How to Use](#How to Use)
+TL;DR: [How to Use](#how-to-use)
 
 Base Image / Node
 -----------------

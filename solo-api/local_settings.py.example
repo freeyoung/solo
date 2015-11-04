@@ -1,0 +1,4 @@
+dbfile = "/opt/soloapi/solo.db"
+base_image_name = "solo-base"
+base_node_name = "solo-base.youdomain.tld"
+digitalocean_token = "you_digital_ocean_token"

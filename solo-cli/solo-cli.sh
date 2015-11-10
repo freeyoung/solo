@@ -60,7 +60,6 @@ case $action in
             --exclude .git/ --exclude .kitchen/ \
             --exclude tmp/ \
             "$chef_dir/" "root@solo${my_solo}.yourdomain.tld:chef/"
-        rsync -e 'ssh -p22' -a "$HOME/.chef/$USER.pem" "root@solo${my_solo}.yourdomain.tld:/etc/chef/client.pem"
         ;;
     status|mine)
         check_my_solo
